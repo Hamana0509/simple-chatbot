@@ -12,9 +12,9 @@ This Python-based chatbot script uses the OpenAI GPT-3.5-turbo model to engage i
 
 # Requirements
 
-Python 3.x
-OpenAI API key
-OpenWeatherMap API key
+- Python 3.x
+- OpenAI API key
+- OpenWeatherMap API key
 
 ## Libraries
 
