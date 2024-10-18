@@ -10,7 +10,7 @@ WEATHER_API_KEY = "your openweathermap API key"
 
 
 client = OpenAI(
-    api_key="your OpenAI API key",
+    api_key=OPENAI_API_KEY,
 )
 
 
