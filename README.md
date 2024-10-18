@@ -18,9 +18,9 @@ This Python-based chatbot script uses the OpenAI GPT-3.5-turbo model to engage i
 
 ## Libraries
 
-**OpenAI**: Interacts with the OpenAI GPT model to generate conversation responses.
-**Requests**: Fetches weather data from the OpenWeatherMap API.
-**JSON**: Handles the API request and response payloads in JSON format.
+- **OpenAI**: Interacts with the OpenAI GPT model to generate conversation responses.
+- **Requests**: Fetches weather data from the OpenWeatherMap API.
+- **JSON**: Handles the API request and response payloads in JSON format.
 
 ## Reasons for choosing libraries or frameworks
 
