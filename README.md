@@ -42,22 +42,22 @@ This project implements a simple chatbot that integrates OpenAI's GPT-4 model fo
 
 ## Conversational Flow:
 
-1. Conversational Flow:
+1. **Conversational Flow**:
    The chatbot initiates a friendly conversation, asks for the user’s name, and acknowledges it. It continuously accepts user input, determines whether the conversation should end based on certain phrases (e.g., "bye", "exit"), and responds accordingly.
 
-2. OpenAI GPT-4 Integration:
+2. **penAI GPT-4 Integration**:
    The chatbot uses OpenAI’s GPT-4 model to generate responses during the conversation. It utilizes the model's chat.completions.create method to generate conversational prompts, adhering to the system prompt that defines the chatbot’s behavior (e.g., being friendly and responsive).
 
    To improve user interaction, **function calling** is implemented to fetch real-time weather data. The model dynamically decides whether it needs to call the `get_current_weather` function based on user input.
 
-3. Function Calling for Weather:
+3. **Function Calling for Weather**:
    When the user asks about the weather, the chatbot either:
 
    - Calls the `OpenWeatherMap` API for a location specified by the user.
    - Defaults to providing weather data for a predefined location, `Ho Chi Minh City, Vietnam`, if no location is specified.
    - The chatbot retrieves and formats weather information, including temperature, humidity, and wind speed, then incorporates it into the conversation.
 
-4. End of Conversation:
+4. **End of Conversation**:
    A helper function, `determine_conversation_end`, analyzes user input for certain phrases to decide if the conversation should end. If such a phrase is detected, the chatbot generates a goodbye message and terminates the session.
 
 # How to run
@@ -89,7 +89,7 @@ python simple_chatbot.py
 
 # Reasoning Behind Choices
 
-- **OpenAI GPT-4**: The GPT-4 model provides highly contextual and human-like responses, making it ideal for conversational agents like this chatbot. It also supports function calling, which allows the chatbot to trigger external APIs based on user input.
+- **OpenAI GPT-4**: The `GPT-4` model provides highly contextual and human-like responses, making it ideal for conversational agents like this chatbot. It also supports function calling, which allows the chatbot to trigger external APIs based on user input.
 
 - **OpenWeatherMap API**: Chosen for its comprehensive weather data and ease of integration, OpenWeatherMap allows real-time weather information to be incorporated into the conversation.
 
