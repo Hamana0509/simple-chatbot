@@ -55,7 +55,7 @@ This project implements a simple chatbot that integrates OpenAI's GPT-4 model fo
 
    - Calls the `OpenWeatherMap` API for a location specified by the user.
    - Defaults to providing weather data for a predefined location, `Ho Chi Minh City, Vietnam`, if no location is specified.
-     The chatbot retrieves and formats weather information, including temperature, humidity, and wind speed, then incorporates it into the conversation.
+   - The chatbot retrieves and formats weather information, including temperature, humidity, and wind speed, then incorporates it into the conversation.
 
 4. End of Conversation:
    A helper function, `determine_conversation_end`, analyzes user input for certain phrases to decide if the conversation should end. If such a phrase is detected, the chatbot generates a goodbye message and terminates the session.
