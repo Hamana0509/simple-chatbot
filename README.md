@@ -65,7 +65,7 @@ This project implements a simple chatbot that integrates OpenAI's GPT-4 model fo
 1. Clone this repository:
 
 ```python
-git clone https://github.com/yourusername/simple-chatbot.git
+git clone https://github.com/Hamana0509/simple-chatbot.git
 ```
 
 2. Install the required libraries:
