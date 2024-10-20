@@ -2,7 +2,7 @@ import json
 import os
 
 import instructor
-import reques
+import requests
 from openai import OpenAI
 
 OPENAI_API_KEY = "YOUR OPENAI API KEY"
